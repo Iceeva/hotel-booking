@@ -1,0 +1,12 @@
+{
+  "name": "hotel-booking",
+  "version": "1.0.0",
+  "description": "Hotel Booking App — React + Express + SQLite",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "start:backend": "npm start --prefix backend",
+    "start:frontend": "npm start --prefix frontend",
+    "dev": "npm run start:backend & npm run start:frontend",
+    "setup": "npm run install:all && echo '\\n✅ Installation terminée! Lancez: npm run dev'"
+  }
+}
