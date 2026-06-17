@@ -1,4 +1,4 @@
-# 🌴 Hotel Royal Palm — Application de Réservation
+# 🌴 Hotel Royal Palm - Application de Réservation
 
 Application web complète de réservation hôtelière avec chatbot multilingue intégré.
 
