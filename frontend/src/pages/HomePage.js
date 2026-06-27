@@ -177,16 +177,16 @@ export default function HomePage({ navigate }) {
             </div>
             <div className="footer-col">
               <h4>Navigation</h4>
-              <a  onClick={() => navigate('home')}>Accueil</a>
-              <a  onClick={() => navigate('rooms')}>Chambres & Suites</a>
-              <a  onClick={() => navigate('mybookings')}>Mes réservations</a>
+              <a href="/" onClick={() => navigate('home')}>Accueil</a>
+              <a href="/rooms" onClick={() => navigate('rooms')}>Chambres & Suites</a>
+              <a href="/mybookings" onClick={() => navigate('mybookings')}>Mes réservations</a>
             </div>
             <div className="footer-col">
               <h4>Services</h4>
-              <a >Restaurant & Bar</a>
-              <a >Spa & Bien-être</a>
-              <a>Salle de conférence</a>
-              <a >Transfert aéroport</a>
+              <a href="/services/restaurant-bar">Restaurant & Bar</a>
+              <a href="/services/spa-bien-etre">Spa & Bien-être</a>
+              <a href="/services/salle-de-conference">Salle de conférence</a>
+              <a href="/services/transfert-aeroport">Transfert aéroport</a>
             </div>
             <div className="footer-col">
               <h4>Contact</h4>
