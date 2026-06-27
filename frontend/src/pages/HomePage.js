@@ -35,7 +35,7 @@ export default function HomePage({ navigate }) {
               L'art de vivre<br /><em>à son sommet</em>
             </h1>
             <p className="hero-subtitle">
-              Découvrez une expérience hôtelière d'exception au cœur duBénin. 
+              Découvrez une expérience hôtelière d'exception au cœur du Bénin. 
               Luxe, confort et service personnalisé vous attendent à l'Hôtel Royal Palm.
             </p>
             <div className="hero-actions">
