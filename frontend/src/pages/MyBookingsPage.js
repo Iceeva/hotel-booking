@@ -9,7 +9,7 @@ const STATUS_LABELS = {
 export default function MyBookingsPage({ navigate }) {
   const [bookings, setBookings] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [cancelId, setCancelId] = useState(null);
+  const [ setCancelId] = useState(null);
   const [searchEmail, setSearchEmail] = useState('');
   const [filtered, setFiltered] = useState([]);
 

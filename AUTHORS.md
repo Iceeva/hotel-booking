@@ -1,4 +1,4 @@
-Project: ERP System
+Project: hotel-booking
 
 Author:
 Evarice Eziou
